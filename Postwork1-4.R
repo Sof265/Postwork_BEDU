@@ -108,11 +108,17 @@ data = union_all(data,df_1920)
 (conjunto.tab <- table(data$FTHG, data$FTAG)/dim(data)[1])
 
 #----------- Punto 2 -----------
-#Un gráfico de barras para las probabilidades marginales estimadas del número de goles que anota el equipo de casa.
-barplot(FTHG.tab,main = "Equipo de casa", col = c("blue","yellow","orange","green"))
+#Un gráfico de barras para las probabilidades del equipo de casa
+barplot(FTHG.tab,main = "Equipo de casa (FTHG)",
+        col = c(brewer.pal(9, "Dark2")),
+        xlab = "Número de goles",
+        ylab = "Frecuencia")
 
-#Un gráfico de barras para las probabilidades marginales estimadas del número de goles que anota el equipo visitante.
-barplot(FTAG.tab,main = "Equipo visitante", col = c("purple","orange","blue","pink"))
+#Un gráfico de barras para las probabilidades del equipo visitante
+barplot(FTAG.tab,main = "Equipo visitante (FTAG)",
+        col = c(brewer.pal(5, "Set1")),
+        xlab = "Número de goles",
+        ylab = "Frecuencia")
 
 #Un HeatMap para las probabilidades conjuntas estimadas de los números de goles que anotan el equipo de casa y el equipo visitante en un partido.
 conjunto.df <- as.data.frame(conjunto.tab)
@@ -153,7 +159,8 @@ summary(conjunto.df)
 hist(conjunto.df$Cocientes, breaks = seq(0,5,0.5), #braques donde se va partieno
      main = "Tabla de Cocientes",
      xlab = "Cociente",
-     ylab = "Frecuencia")
+     ylab = "Frecuencia",
+    col = c(brewer.pal(5, "YlOrRd")))
 median(conjunto.df$Cocientes)
 
 
