@@ -147,6 +147,15 @@ for (j in 1:dim(conjunto.tab)[2]) {
   }
 }
 
+#------------Propuesta 3------------------
+FTHG.df <- as.data.frame(FTHG.tab)
+FTAG.df <- as.data.frame(FTAG.tab)
+
+conjunto.df <- cbind(conjunto.df, rep(FTHG.df$Freq,nrow(FTAG.df)),rep(FTAG.df$Freq, each=nrow(FTHG.df)))
+colnames(conjunto.df) <- c("FTHG","FTAG", "Frecuencia", "ProbH","ProbA")
+conjunto.df <- mutate(as.data.frame(conjunto.df), Cocientes=Frecuencia/(ProbH*ProbA) )
+-----------------------------------------------
+
 str(conjunto.df)
 summary(conjunto.df)
 
