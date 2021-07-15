@@ -63,6 +63,8 @@ coleccion$count(query = '{}')
 # metió el Real Madrid el 20 de diciembre de 2015 y contra que equipo jugó, ¿perdió ó fue goleada?
 coleccion$find(query = '{"home_team": "Real Madrid", "date": "2015-12-20"}' )
 #Goleada!
+#El 20 de diciembre de 2015 se metieron la mayor cantidad de goles en casa por el real Madrid
+coleccion$find(query = '{ "$expr": { "$gt": [ "$home_score" , "$away_score" ] } }', sort='{"home_score":-1}', limit=1)
 # Por último, no olvides cerrar la conexión con la BDD
 coleccion$disconnect()
 
