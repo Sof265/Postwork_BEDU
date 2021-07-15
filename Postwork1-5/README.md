@@ -1,13 +1,13 @@
 ## Equipo 12  
 -Márquez Estrada Arath Patricio  
 -Rivera Vargas Juan  
--Briceño Díaz Sofía  
+-Briceño Díaz Sofía del Carmen
 -Benitez Garcia Saul Enrique  
 -Enríquez López José Andrés  
 -Juárez Fonseca César Eduardo
 
 # Introducción 
-La presión social juega un papel importante en el comportamiento de las personas y de grupos sociales. Esto se ha observado en diferentes estudios en economía, sociología y sicología. Algunos ejemplos actuales se pueden observar en inversiones (miedo a quedarse fue en inversiones como son acciones de empresas, criptomonedas o fondos de inversión), participación electoral (mayor porcentaje de votantes en elecciones intermedias en México), demandas sociales (manifestaciones, huelgas, concentraciones), decisiones gubernamentales (aceptación o rechazo de políticas internas o externas), etc.
+La presión social juega un papel importante en el comportamiento de las personas y de grupos sociales. Esto se ha observado en diferentes estudios en economía, sociología y psicología. Algunos ejemplos actuales se pueden observar en inversiones (tales como acciones de empresas, criptomonedas o fondos de inversión), participación electoral (mayor porcentaje de votantes en elecciones intermedias en México), demandas sociales (manifestaciones, huelgas, concentraciones), decisiones gubernamentales (aceptación o rechazo de políticas internas o externas), etc.
 
 El deporte es un evento social que puede concentrar a uno o más grupos sociales, que pueden participar de forma pasiva (espectadores) o activa (jugadores). Uno de los deportes más populares a nivel mundial es el futbol soccer, existiendo incluso una institución que gobierna a todas las federaciones a nivel mundial, llamada Federación Internacional de Fútbol Asociación (FIFA). De este modo, el fútbol soccer concentra mueve grandes masas y flujos de efectivo. 
 
